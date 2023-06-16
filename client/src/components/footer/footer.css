@@ -1,0 +1,37 @@
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #e1e1e4;
+  padding: 40px;
+  margin-top: -30px;
+}
+
+.fLists {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.fList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.fListItem {
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
+
+}
+
+.fListItem:last-child {
+  border-bottom: none;
+}
+.fText{
+  margin-top: 50px;
+}

@@ -1,0 +1,120 @@
+.header {
+    display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+
+
+.headerSearch {
+  margin-left: 200px;
+  height: 70px;
+  background-color: rgb(238, 239, 244);
+  border: 3px solid #a8ece9;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  padding: 10px 0px;
+  border-radius: 5px;
+  bottom: -110px;
+  width: 100%;
+  max-width: 1024px;
+}
+.headerBtn{
+  color: #ffffff;
+  font-size: 16px;
+  background-color: black;
+  border-radius: 8%;
+}
+.headerIcon {
+  color: rgb(11, 10, 10);
+}
+
+.headerSearchItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.headerSearchInput {
+  border: none;
+  outline: none;
+}
+
+.headerSearchText {
+  color: rgb(87, 85, 85);
+  cursor: pointer;
+}
+
+.date {
+  position: absolute;
+  top: 50px;
+  z-index: 2;
+}
+
+.options {
+  z-index: 2;
+  position: absolute;
+  top: 50px;
+  background-color: white;
+  color: gray;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+}
+
+.optionItem {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.optionCounter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+  color: black;
+}
+
+.optionCounterButton {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #d7ea49;
+  color: #d8e82c;
+  cursor: pointer;
+  background-color: white;
+}
+
+.optionCounterButton:disabled {
+  cursor: not-allowed;
+}
+.headerListItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #636262;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 10px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.headerListItem span {
+  margin-top: 5px;
+}
+.headerList{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  
+}
+h2{
+  margin-top:50px;
+  margin-left: 200px;
+  color: rgb(58, 58, 104);
+}

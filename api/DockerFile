@@ -1,0 +1,14 @@
+
+FROM node:14
+
+WORKDIR /app/api
+
+COPY api/package*.json ./
+
+RUN npm install
+
+COPY api/ .
+
+EXPOSE 8800
+
+CMD ["npm", "start"]
